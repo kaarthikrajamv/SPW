@@ -46,12 +46,15 @@ l=['hi',True,5,3.14]
 # 		break
 # else: print 'None is div by 7'
 
-y=input('Enter Num :')
-x=int(y**0.5)
-while x>1:
-	if y%x==0:
-		print y, 'has a factor', x 
-		break
-	x=x-1
-else:
-	print y," is prime"
+# y=input('Enter Num :')
+# x=int(y**0.5)
+
+# while x>1:
+# 	if y%x==0:
+# 		print y, 'has a factor', x 
+# 		break
+# 	x=x-1
+# else:
+# 	print y," is prime"
+# 	
+#Mark Lutz 
