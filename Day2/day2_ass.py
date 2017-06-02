@@ -47,13 +47,16 @@
 
 #5
 # dict=input("Enter : ")
-d={'a':32,'the':12,'an':5}
-n=input("Num : ")
-data=d.items()
-data.sort(key=lambda tup: tup[1],reverse=True)
-data ={key:val for key,val in data[:n]}
-print data
+# d={'a':32,'the':12,'an':5}
+# n=input("Num : ")
+# data=d.items()
+# data.sort(key=lambda tup: tup[1],reverse=True)
+# data ={key:val for key,val in data[:n]}
+# print data
 
 #6
 
 
+# print reduce(lambda x,y:x if x>y else y,[1,3,4,2,6])
+# print reduce(lambda x,y:max(x,y),[1,3,4,2,6])
+#
